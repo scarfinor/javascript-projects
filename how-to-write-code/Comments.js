@@ -10,3 +10,7 @@
    comments. */
 
    console.log("Comments make your code more readable by others.");
+console.log("hello")
+console.log /* hello there
+how are we today */
+// This does not print. great!
