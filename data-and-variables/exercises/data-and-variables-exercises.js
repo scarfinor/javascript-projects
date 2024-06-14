@@ -39,3 +39,21 @@ console.log("end -------------------------------")
 // milesToMoon = 238712.4
 // hoursToMoon = 13.640708571428257
 // daysToMoon = 0.5683628571428571
+
+console.log('ignore-------------------')
+
+//booleanConversion
+
+console.log(Boolean('True'))
+console.log(Boolean('TRUE'))
+console.log(Boolean(0))
+console.log(Boolean(1))
+console.log(Boolean(''))
+console.log(Boolean('launchCode'))
+
+//checkYourUnderstading
+
+//underWhichConditionalDoesBooleanConvertAStringToTrue?
+//1.OnlyWhenTheStringIs"True".
+
+console.log(Boolean('true'))
