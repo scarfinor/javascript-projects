@@ -56,4 +56,4 @@ console.log(Boolean('launchCode'))
 //underWhichConditionalDoesBooleanConvertAStringToTrue?
 //1.OnlyWhenTheStringIs"True".
 
-console.log(Boolean('true'))
+console.log(Boolean('True'))
