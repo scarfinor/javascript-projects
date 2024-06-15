@@ -11,12 +11,12 @@ console.log(Boolean('launchCode'))
 
 //checkYourUnderstading
 
-console.log('question1-------------')
+console.log('question (1) -------------')
 //underWhichConditionalDoesBooleanConvertAStringToTrue?
 //1.OnlyWhenTheStringIs"True".
 console.log(Boolean('True'))
 
-console.log('question2-------------')
+console.log('question (2) -------------')
 //whichOfTheFollowingIsABooleanExpression?SelectAllThatApply.
 //all?
 console.log(Boolean(3 == 4))
@@ -28,12 +28,12 @@ console.log('equality====================================')
 
 //checkYourUnderStanding
 
-console.log('question1---------------')
+console.log('question (1) --------------')
 //whatIsTheResultOfTheFollowingBooleanExpression?
 //1.true
 console.log(Boolean(4 == '4'))
 
-console.log('question2--------------')
+console.log('question (2) --------------')
 //whatIsTheDiffrenceBetween==and===?
 //3.==convertsValuesOfDiffrentTypesToBeTheSameType,While===DoesNot.
 
@@ -60,4 +60,4 @@ console.log('logicalOperators============================')
 
 //checkYourUnderstanding
 
-console.log('question"1"---------------------')
+console.log('question (1) --------------')
