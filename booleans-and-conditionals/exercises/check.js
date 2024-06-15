@@ -33,7 +33,7 @@ console.log('question1---------------')
 //1.true
 console.log(Boolean(4 == '4'))
 
-confirm.log('question2--------------')
+console.log('question2--------------')
 //whatIsTheDiffrenceBetween==and===?
 //3.==convertsValuesOfDiffrentTypesToBeTheSameType,While===DoesNot.
 
