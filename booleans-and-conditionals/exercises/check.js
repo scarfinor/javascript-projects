@@ -27,7 +27,37 @@ console.log(Boolean(3 + 4))
 console.log('equality====================================')
 
 //checkYourUnderStanding
+
 console.log('question1---------------')
 //whatIsTheResultOfTheFollowingBooleanExpression?
 //1.true
 console.log(Boolean(4 == '4'))
+
+confirm.log('question2--------------')
+//whatIsTheDiffrenceBetween==and===?
+//3.==convertsValuesOfDiffrentTypesToBeTheSameType,While===DoesNot.
+
+console.log('logicalOperators============================')
+
+//operatorPrecedence
+//(highest)	Logical NOT	!
+//Exponentiation	**
+//Multiplication and division	*, /, %
+//Addition and subtraction	+, -
+//Comparison	<=, >=, >, <
+//Equality	===, !==, ==, !=
+//Logical AND	&&
+//(lowest)	Logical OR
+
+//---------------------
+ 
+//truthTableFor&&
+//A	   B	   A && B
+//true	true	true
+//true	false	false
+//false	true	false
+//false	false	false
+
+//checkYourUnderstanding
+
+console.log('question"1"---------------------')
