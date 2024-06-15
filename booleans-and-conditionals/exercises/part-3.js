@@ -25,26 +25,33 @@ if (fuelLevel < 1000 || engineTemperature > 3500 || engineIndicatorLight) {
     console.log('ENGINE FAILURE IMMINENT!')
 }
 //f) Otherwise, print "Fuel and engine status pending..." */
-if (fuelLevel > 20000 && engineTemperature <= 2500) {
-    console.log('fullTank.enginesGood')
-}
-else if (fuelLevel > 5000 && engineTemperature <= 2500) {
-    console.log('fuelLevelAbove50%')
-}
-else if (fuelLevel > 5000 && engineTemperature <= 2500) {
-    console.log('fuelLevelAbove25%.enginesGood')
-}
-else if (fuelLevel <= 5000 || engineTemperature > 2500) {
-    console.log('checkFuelLevel.enginesRunningHot.')
-}
-else if (fuelLevel < 1000 || engineTemperature > 3500 || engineIndicatorLight) {
+if (fuelLevel < 1000 || engineTemperature > 3500 || engineIndicatorLight === "red blinking") {
     console.log('ENGINE FAILURE IMMINENT!')
-} else {
+  } else if (fuelLevel <= 5000 || engineTemperature > 2500) {
+    console.log('checkFuelLevel.enginesRunningHot.')
+  } else if (fuelLevel > 20000 && engineTemperature <= 2500) {
+    console.log('fullTank.enginesGood.')
+  } else if (fuelLevel > 10000 && engineTemperature <= 2500) {
+    console.log('fuelLevelAbove50%.enginesGood.')
+  } else if (fuelLevel > 5000 && engineTemperature <= 2500) {
+    console.log('fuelLevelAbove25%.enginesGood.')
+  } else {
     console.log('fuelAndEngineStatusPending...')
-    }
+  }
 // Code 5a - 5f here:
-
+console.log('ENGINE FALIURE IMMINENT!')
 // 6) a) Create the variable commandOverride, and set it to be true or false. If commandOverride is false, then the shuttle should only launch if the fuel and engine check are OK. If commandOverride is true, then the shuttle will launch regardless of the fuel and engine status.
-
+let commandOverride = 'true' || 'false'
+if (fuelLevel > 20000 && engineTemperature <= 2500) {
+    console.log('false')
+    if (commandOverride = 'true') {
+        console.log('true')
+    }
+} 
 /* 6) b) Code the following if/else check:
 If fuelLevel is above 20000 AND engineIndicatorLight is NOT red blinking OR commandOverride is true print "Cleared to launch!" Else print "Launch scrubbed!" */
+if (fuelLevel > 20000 && !engineIndicatorLight || commandOverride) {
+    console.log('clearedToLaunch')
+} else {
+    console.log('launch Scrubbed!')
+}
