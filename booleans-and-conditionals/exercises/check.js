@@ -1,6 +1,6 @@
 console.log('booleanConversion===========================')
 
-console.log('tryme-----------------')
+console.log('tryme        -------------')
 
 console.log(Boolean('True'))
 console.log(Boolean('TRUE'))
@@ -61,3 +61,16 @@ console.log('logicalOperators============================')
 //checkYourUnderstanding
 
 console.log('question (1) --------------')
+//Complete the table below.
+//Truth Table for ||:
+//A	   B	     A OR B
+//true	true	  true 
+//true	false	  true
+//false	true	  true
+//false	false   false
+
+console.log('question (2) --------------')
+//Which of the following properly expresses the order of operations (using parentheses) in the following expression?
+//5*3 > 10 && 4 + 6 === 11
+console.log((5*3) > 10) && ((4+6) === 11)
+
