@@ -1,6 +1,6 @@
 console.log('booleanConversion===========================')
 
-console.log('tryme        -------------')
+console.log('(tryme)      -------------')
 
 console.log(Boolean('True'))
 console.log(Boolean('TRUE'))
@@ -9,68 +9,72 @@ console.log(Boolean(1))
 console.log(Boolean(''))
 console.log(Boolean('launchCode'))
 
-//checkYourUnderstading
+console.log('checkYourUnderstading')
 
 console.log('question (1) -------------')
-//underWhichConditionalDoesBooleanConvertAStringToTrue?
-//1.OnlyWhenTheStringIs"True".
+console.log('underWhichConditionalDoesBooleanConvertAStringToTrue?')
+console.log('answer: 1.onlyWhenTheStringIs"True".')
 console.log(Boolean('True'))
 
 console.log('question (2) -------------')
-//whichOfTheFollowingIsABooleanExpression?SelectAllThatApply.
-//all?
+console.log('whichOfTheFollowingIsABooleanExpression?SelectAllThatApply.')
 console.log(Boolean(3 == 4))
 console.log(Boolean(3 + 4 === 7))
 console.log(Boolean('false'))
 console.log(Boolean(3 + 4))
+console.log('answer: all?')
 
-console.log('equality====================================')
+console.log('(equality) =================================')
 
-//checkYourUnderStanding
+console.log('checkYourUnderStanding')
 
 console.log('question (1) --------------')
-//whatIsTheResultOfTheFollowingBooleanExpression?
-//1.true
-console.log(Boolean(4 == '4'))
+console.log('whatIsTheResultOfTheFollowingBooleanExpression?')
+console.log('Boolean(4 == 4)')
+console.log('answer: true')
 
 console.log('question (2) --------------')
-//whatIsTheDiffrenceBetween==and===?
-//3.==convertsValuesOfDiffrentTypesToBeTheSameType,While===DoesNot.
+console.log('whatIsTheDiffrenceBetween==and===?')
+console.log('3.==convertsValuesOfDiffrentTypesToBeTheSameType,While===DoesNot.')
 
-console.log('logicalOperators============================')
+console.log('(logicalOperators) =========================')
 
-//operatorPrecedence
-//(highest)	Logical NOT	!
-//Exponentiation	**
-//Multiplication and division	*, /, %
-//Addition and subtraction	+, -
-//Comparison	<=, >=, >, <
-//Equality	===, !==, ==, !=
-//Logical AND	&&
-//(lowest)	Logical OR
+console.log('operatorPrecedence')
+console.log('(highest)	Logical NOT	!')
+console.log('Exponentiation	**')
+console.log('Multiplication and division	*, /, %')
+console.log('Addition and subtraction	+, -')
+console.log('Comparison	<=, >=, >, <')
+console.log('Equality	===, !==, ==, !=')
+console.log('Logical AND	&&')
+console.log('(lowest)	Logical OR')
 
-//---------------------
+console.log('---------------------')
  
-//truthTableFor&&
-//A	   B	   A && B
-//true	true	true
-//true	false	false
-//false	true	false
-//false	false	false
+console.log('truthTableFor&&')
+console.log('A	   B	   A && B')
+console.log('true	true	true')
+console.log('true	false	false')
+console.log('false	true	false')
+console.log('false	false	false')
 
-//checkYourUnderstanding
+console.log('checkYourUnderstanding')
 
 console.log('question (1) --------------')
-//Complete the table below.
-//Truth Table for ||:
-//A	   B	     A OR B
-//true	true	  true 
-//true	false	  true
-//false	true	  true
-//false	false   false
+console.log('completeTheTableBelow.')
+console.log('truthTableFor||:')
+console.log('A	   B	     A OR B')
+console.log('true	true	  true')
+console.log('true	false	  true')
+console.log('false	true	  true')
+console.log('false	false   false')
 
 console.log('question (2) --------------')
-//Which of the following properly expresses the order of operations (using parentheses) in the following expression?
-//5*3 > 10 && 4 + 6 === 11
-console.log((5*3) > 10) && ((4+6) === 11)
+console.log('whichOfTheFollowingPoperlyExpressesTheOrderOfOperations(usingParentheses)InTheFollowingExpression? 5*3 > 10 && 4 + 6 === 11')
+console.log('answer: true')
 
+console.log('question (3) --------------')
+console.log('whatIsReturnedByTheFollowingBooleanExpression? 4 < 3 || 2 < 3')
+console.log('answer: true')
+
+console.log('(conditionals) =============================')
