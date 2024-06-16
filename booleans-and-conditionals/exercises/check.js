@@ -13,7 +13,7 @@ console.log('checkYourUnderstading')
 
 console.log('question (1) -------------')
 console.log('underWhichConditionalDoesBooleanConvertAStringToTrue?')
-console.log('answer: 1.onlyWhenTheStringIs"True".')
+console.log('answer: wheneverTheStringIsNon-empty.')
 console.log(Boolean('True'))
 
 console.log('question (2) -------------')
@@ -22,7 +22,7 @@ console.log(Boolean(3 == 4))
 console.log(Boolean(3 + 4 === 7))
 console.log(Boolean('false'))
 console.log(Boolean(3 + 4))
-console.log('answer: all?')
+console.log('answer: 3 == 4, 3 + 4 === 7')
 
 console.log('(equality) =================================')
 
@@ -108,3 +108,12 @@ console.log('   if (num % 2 === 1)')
 console.log('console.log("odd")')
 console.log('answer: 3.noValues.itIsImpossibleForTheCallToConsole.logToEverRun,GivenTheTwoConditions.')
 console.log('end ========================================')
+console.log(Boolean(4 < 3 || 2 < 3))
+let a = 7;
+if (a % 2 === 1) {
+   console.log("Launch");
+} else if (a > 5) {
+   console.log("Code");
+} else {
+   console.log("LaunchCode");
+}
