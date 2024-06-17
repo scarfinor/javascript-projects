@@ -2,12 +2,12 @@
 // Consider the first if/else block below. 
 // Add console.log(launchReady) after this block, then run the program.
 
-//Given the fuelLevel value, should launchReady be true or false after the check?  Is the program behaving as expected?
+//Given the fuelLevel value, should launchReady be true or false after the check? (flase) Is the program behaving as expected? (no, it still launched the countdown.)
 
 let launchReady = false;
 let fuelLevel = 17000;
-// let crewStatus = true;
-// let computerStatus = 'green';
+//crewStatus = true;
+//computerStatus = 'green';
 
 if (fuelLevel >= 20000) {
    console.log('Fuel level cleared.');
@@ -16,16 +16,16 @@ if (fuelLevel >= 20000) {
    console.log('WARNING: Insufficient fuel!');
    launchReady = false;
 }
+console.log(launchReady)
+//if (crewStatus && computerStatus === 'green') {
+//       console.log('Crew & computer cleared.');
+//   launchReady = true;
+//} else {
+//      console.log('WARNING: Crew or computer not ready!');
+//launchReady = false;
+//}
 
-// if (crewStatus && computerStatus === 'green'){
-//    console.log('Crew & computer cleared.');
-//    launchReady = true;
-// } else {
-//    console.log('WARNING: Crew or computer not ready!');
-//    launchReady = false;
-// }
-
-// if (launchReady) {
+//if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
 //    console.log('Liftoff!');
 // } else {
