@@ -74,4 +74,13 @@ console.log("JavaScript provides a "+ color +" collection of tools — including
 console.log("================================================================================");
 console.log("Chapter 8: 'Arrays Keep Things In Order.'");
 console.log("================================================================================");
+console.log("Question 1: 'What is the length of the two arrays?'");
+let classes = ["science, computer, art"];
+let teachers = ["Jones", "Willoughby", "Rhodes"];
+console.log("Answer Part 1:");
+console.log(classes.length);
+console.log(teachers.length);
+console.log("Answer Part 2: 'How can you change the classes array declaration to have the same number of items as the teachers array?'");
+console.log("let classes = ['science', 'computers', 'art']");
+console.log("--------------------------------------------------------------------------------");
 
