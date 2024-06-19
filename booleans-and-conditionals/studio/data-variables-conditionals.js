@@ -57,7 +57,7 @@ if (fuelLevel = 1.0) {
     preparedForLiftOff = true
 };
 if (fuelLevel = true) {
-    console.log('Fuel Levle 100%: Cleared for Lift Off')
+    console.log('Fuel Level 100%: Cleared for Lift Off')
 } else {
     console.log('Scrub Launch')
 };
@@ -65,7 +65,7 @@ if (fuelLevel = true) {
 if (weatherStatus = 'clear') {
     preparedForLiftOff = true
 };
-if (weatherStatus = true) {
+if (weatherStatus = 'clear') {
     console.log('Weather clear: Cleared for Lift Off')
 } else {
     console.log('Scrub Launch')

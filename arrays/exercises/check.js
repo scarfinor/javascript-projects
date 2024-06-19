@@ -83,4 +83,34 @@ console.log(teachers.length);
 console.log("Answer Part 2: 'How can you change the classes array declaration to have the same number of items as the teachers array?'");
 console.log("let classes = ['science', 'computers', 'art']");
 console.log("--------------------------------------------------------------------------------");
+console.log("Question 2: 'What is printed by the following code? ");
+let charles = ['coder', 'Tech', 47, 23, 350];
+charles.sort();
+console.log(charles);
+console.log("Answer: 4. '[23, 350, 47, 'Tech', 'coder'");
+console.log("--------------------------------------------------------------------------------");
+console.log("Question 3: 'Which statement converts the string str = 'LaunchCode students rock!' into the array ['LaunchCode', 'students', 'rock!']?");
+let str = 'LaunchCode students rock!'
+console.log(str.split(" "));
+console.log("Answer: 1.");
+console.log("--------------------------------------------------------------------------------");
+console.log("Question: 4.'let groceryBag = ['bananas', 'apples', 'edamame', 'chips', 'cucumbers', 'milk', 'cheese'];");
+let groceryBag = ['bananas', 'apples', 'edamame', 'chips', 'cucumbers', 'milk', 'cheese'];
+let selectedItems = [];
 
+selectedItems = groceryBag.slice(2, 5).sort();
+console.log(selectedItems);
+console.log("Answer: 2. '['chips', 'cucumbers', 'edamame', 'milk']'");
+console.log("--------------------------------------------------------------------------------");
+console.log("Question 5: 'What are the two dimensional indexes for 'Jones'?'");
+let school = [
+    ["science", "computer", "art"],
+    ["Jones", "Willoughby", "Rhodes"]
+];
+let newschool =['dance', 'Holmes'];
+school.splice(0, 0, 'dance');
+school.splice(1, 0, 'holmes')
+console.log(school);
+console.log("Answer: 'Row' and 'coloumn'");
+console.log("Answer part 2: 'school.splice(0, 0, 'dance');");
+console.log("Answer part 3: 'school.splice(1, 0, 'Holmes')'");
