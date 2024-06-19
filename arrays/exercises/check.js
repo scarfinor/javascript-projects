@@ -107,10 +107,9 @@ let school = [
     ["science", "computer", "art"],
     ["Jones", "Willoughby", "Rhodes"]
 ];
-let newschool =['dance', 'Holmes'];
-school.splice(0, 0, 'dance');
-school.splice(1, 0, 'holmes')
+school[0].push('dance');
+school[1].unshift('Holmes');
 console.log(school);
-console.log("Answer: 'Row' and 'coloumn'");
-console.log("Answer part 2: 'school.splice(0, 0, 'dance');");
-console.log("Answer part 3: 'school.splice(1, 0, 'Holmes')'");
+console.log("Answer: [1],[0]");
+console.log("Answer part 2: 'school[0].push('dance');");
+console.log("Answer part 3: 'school[1].unshift('Holmes')'");
