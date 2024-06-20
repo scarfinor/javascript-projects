@@ -50,11 +50,7 @@ console.log("No, split and join method do not change the string or the array in 
 console.log("===========================================================================================================");
 //4) We can take a comma-separated string and convert it into a modifiable array. Try it! Alphabetize the cargoHold string, and then combine the contents into a new string.
 let cargoHold = "water,space suits,food,plasma sword,batteries";
-cargoHold.split();
-let cargoHold1 = [cargoHold];
-console.log(cargoHold1);
+console.log(cargoHold.split(',').sort().join(','));
 console.log("===========================================================================================================");
-let cargoHold2 = cargoHold1.join();
-console.log("===========================================================================================================");
-console.log(cargoHold2);
+console.log(cargoHold)
 console.log("===========================================================================================================");
