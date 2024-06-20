@@ -1,7 +1,7 @@
 let cargoHold = ['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'slinky', 'security blanket'];
 console.log(cargoHold)
 //1) Use bracket notation to replace ‘slinky’ with ‘space tether’. Print the array to confirm the change.
-cargoHold = ['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'space tether', 'security blanket'];
+cargoHold[5] = 'space tether';
 console.log(cargoHold);
 //2) Remove the last item from the array with pop. Print the element removed and the updated array.
 cargoHold.pop();
