@@ -1,3 +1,8 @@
-// create an array variable containing the names
-
-// write a for loop that prints each name on a different line
+console.log("Chapter 9: Repeating with Loops");
+console.log("===========================");
+console.log("example 1");
+for (let i = 0; i < 51; i++) {
+    console.log(i);
+ }
+ console.log("==========================");
+ 
