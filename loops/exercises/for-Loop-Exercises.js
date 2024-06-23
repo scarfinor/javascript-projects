@@ -49,13 +49,19 @@ console.log("===============================================================");
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
   a. One array contains the even numbers, and the other holds the odds.
   b. Print the arrays to confirm the results. */
-  let array1 = [2, 3, 13, 18, -5, 38, -10, 11,0, 140];
-  let positiveArray = [];
-  let negativeArray = [];
-  for (let i = array.length; i > positiveArray.length || i < negativeArray.length ; i++) {
-      positiveArray.push(2, -10, 0, 18, 38, 140);
-      negativeArray.push(-5, 3, 11, 13);
+  let array1 = [2, 3, 13, 18, 38, -10, 11, 0, 140, -5];
+  let evenArray = [];
+  for (let i = 0; i < 140; i++) {
+       if (array1[i] % 2 == 0) {
+        evenArray.push(array1[i]);
+       }
   }
-    console.log(positiveArray);
-    console.log(negativeArray);
+  console.log(evenArray)
+  oddArray = [];
+  for (i = 13; i > -10; i--) {
+    if (array1[i] % -2 == -1 || array1[i] % 2 == 1) {
+      oddArray.push(array1[i]);
+    }
+  }
+  console.log(oddArray)
 console.log("===============================================================");
