@@ -31,7 +31,7 @@ function askForNumber() {
 
   numMeals = Number(numMeals);
   
-  while (numMeals <= 0) {
+  while (numMeals <= 0 || numMeals > 6) {
      numMeals = input.question('Invalid input. Please enter a number less then or equal to 6: ');
      numMeals = Number(numMeals);
   }
