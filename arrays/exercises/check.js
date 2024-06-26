@@ -113,3 +113,46 @@ console.log(school);
 console.log("Answer: [1],[0]");
 console.log("Answer part 2: 'school[0].push('dance');");
 console.log("Answer part 3: 'school[1].unshift('Holmes')'");
+console.log("=================================");
+
+console.log("================================");
+function repeater(str) {
+    let repeated = str + str;
+    console.log(repeated);
+}
+
+repeater('Bob');
+console.log("=================================");
+function repeater(str) {
+    let repeated = str + str;
+    console.log(repeated);
+}
+
+repeater('Bob');
+console.log("=================================");
+let num = 42;
+
+function isEven (num) {
+   return num % 2 === 0;
+}
+
+console.log(isEven(43));
+console.log("================================");
+function myFunc(radius) {
+    let area = Math.PI * radius**2;
+    return area;
+}
+console.log("area");
+console.log("=================================");
+function plusTwo(num) {
+    return num + 2;
+}
+
+let a = 2;
+
+for (let i=0; i < 4; i++) {
+    a = plusTwo(a);
+}
+
+console.log(a);
+console.log("=================================");
