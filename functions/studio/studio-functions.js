@@ -1,8 +1,27 @@
 //We want to COMPLETELY reverse an array by flipping the order of the entries AND flipping the order of characters in each element.
 
 // Part One: Reverse Characters
-
 // 1. Define the function as reverseCharacters. Give it one parameter, which will be the string to reverse.
+function reverseCharacters(str) {
+    if (typeof str === "string") {
+        let temp = str.split("");
+        str = temp.reverse().join("");
+    }
+    if (typeof str === "number") {
+        let temp = String(str).split("");
+        str = Number(temp.reverse().join(""));
+    }
+    return str;
+}
+console.log(reverseCharacters("apple"));
+console.log(reverseCharacters("LC101"));
+console.log(reverseCharacters("Capitalized letters"));
+console.log(reverseCharacters("I love the smell of code in the morning"));
+console.log(reverseCharacters(1234));
+console.log(reverseCharacters("LC101"));
+console.log(reverseCharacters(8675309));
+console.log(reverseCharacters('radar'));
+
 // 2. Within the function, split the string into an array, then reverse the array.
 // 3. Use join to create the reversed string and return that string from the function.
 // 4. Below the function, define and initialize a variable to hold a string.
@@ -10,7 +29,7 @@
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
 
 // Part Two: Reverse Digits
-
+ 
 // 1. Add an if statement to reverseCharacters to check the typeof the parameter.
 // 2. If typeof is ‘string’, return the reversed string as before.
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
@@ -26,10 +45,19 @@
 // 5. Return the final, reversed array.
 // 6. Be sure to print the results from each test case in order to verify your code.
 
+
 let arrayTest1 = ['apple', 'potato', 'Capitalized Words'];
 let arrayTest2 = [123, 8897, 42, 1168, 8675309];
 let arrayTest3 = ['hello', 'world', 123, 'orange'];
 
+function  completeReversal() {
+    let array1 = []
+    for (i = 0; i < arrayTest2.length; i++) {
+        array1[i] = reverseCharacters(arrayTest2[i]);
+        return array1.reverse();
+    }
+}
+console.log(completeReversal(arrayTest2));
 // Bonus Missions
 
 // 1. Have a clear, descriptive name like funPhrase.
