@@ -7,9 +7,9 @@ console.log(nums);
 console.log(doubled);
 console.log("================");
 let names = ["Chris", "Jim", "Sally", "Blake", "Paul", "John", "Courtney", "Carly"];
-
-// TODO: Write a mapping function
-// and pass it to .map()
-let firstInitials = names.map();
+let initals = function (I) {
+    return  I = "Jim".indexOf("J");
+}
+let firstInitials = names.map(initals);
 
 console.log(firstInitials);
