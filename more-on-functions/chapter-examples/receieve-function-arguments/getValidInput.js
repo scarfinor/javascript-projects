@@ -1,5 +1,5 @@
 let fileLogger = function(msg) {
-
+"hello"
 }
 function logError(msg, logger) {
   let errorMsg = 'ERROR: ' + msg;
@@ -28,7 +28,7 @@ let isEven = function(n) {
 console.log(getValidInput('Enter an even number:', isEven));
 console.log("=====================================");
 let startWithA = function(a) {
-  return ; 
+  return ""; 
 };
 console.log(getValidInput('Enter a String That Starts With A: ', startWithA));
 
