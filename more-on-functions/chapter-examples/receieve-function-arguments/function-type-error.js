@@ -1,5 +1,5 @@
 function callMe(func) {
-    func();
+    return func;
 }
 
-callMe("Al");
+console.log(callMe("Al"));
