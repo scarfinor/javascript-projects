@@ -8,19 +8,21 @@ nonSuspiciousFunction = function(levelOfFuel) {
 }
 };
 let irs = function(itemsInCargo) {
-  let arr = [];
-  if (arr.length < 0) {
-    return `Spaces available: ${7-arr.length}.`;
-  } else if (arr.length > 0){
-    return `Over capacity by ${arr.length-7} items.`;
-  } else {
-    return cargoHold.splice('water','first-aid kit');
-  }
+  console.log(itemsInCargo);
+  let newArr = [];
+  for (let i = 0; i < itemsInCargo.length; i++) {
+    if (itemsInCargo[i] === "gold") {
+      //newArr.push(itemsInCargo.splice(3,1,"wet socks").join(""));
+      //itemsInCargo.push("wet socks");
+      newArr.push(itemsInCargo.splice(i,1,"wet socks"));
+    }
+  } 
+  console.log(itemsInCargo, newArr);
 };
-let irs1 = function(levelOfFuel, itemsInCargo) {
-  let arr = cargoHold;
-    return `Raided ${nonSuspiciousFunction(fuelLevel)} kg of fuel from the tanks, and stole ${arr[3]} and ${arr[4]} from the cargo hold.`
+let irs1 = function(itemsInCargo) {
+    return `Raided ${nonSuspiciousFunction(fuelLevel)} kg of fuel from the tanks, and stole ${itemsInCargo[3]} and ${itemsInCargo[4]} from the cargo hold.`
   };
+
   
 function checkFuel(level) {
   if (level > 100000){
@@ -47,7 +49,6 @@ let cargoHold = ['meal kits', 'space suits', 'first-aid kit', 'satellite', 'gold
 
 console.log("Fuel level: " + checkFuel(fuelLevel));
 console.log("Hold status: " + holdStatus(cargoHold));
-console.log(irs1(fuelLevel, cargoHold))
 
 
 /* Steal some fuel from the shuttle:
