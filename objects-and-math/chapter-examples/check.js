@@ -28,4 +28,15 @@ let tortoiseOne = {
  console.log(num1);
  console.log("Answer: 7");
  console.log("===============================");
- 
+ console.log(Math.round(12.3456789*10000)/10000);
+ let tortoiseThree = {
+    species: "Galapagos Tortoise",
+    name: "Patricia",
+    weight: 800,
+    age: 85,
+    diet: ["pumpkins", "lettuce", "cabbage"],
+    sign: function() {
+       return this.name + " is a " + this.species;
+    }
+  };
+  console.log(tortoiseThree)
