@@ -73,6 +73,7 @@ function fitnessTest(candidates){
 return results;
 }
 console.log(fitnessTest(crew));
+console.log("==================");
 
 // After you have created the other object literals, add the astronautID property to each one.
 
