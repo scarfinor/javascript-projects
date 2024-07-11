@@ -15,5 +15,15 @@ function averageForTest(testIndex,scores){
   let average = sum/scores[0].length;
   return average;
 }
+//===============================================================================================================================================================================================
+//test
+//console.log(averageForStudent);
+//console.log(averageForStudent);
+//===============================================================================================================================================================================================
 
 //TODO: Export all functions within an object.
+
+module.exports = {
+  averageForStudent: averageForStudent,
+  averageForTest: averageForTest
+}

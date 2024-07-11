@@ -1,5 +1,18 @@
-function randomFromArray(arr){
-  //Your code here to select a random element from the array passed to the function.
-}
+//===============================================================================================================================================================================================
+//test
+//let arr =["hello", "world"];
+//===============================================================================================================================================================================================
 
+  //Your code here to select a random element from the array passed to the function.
+  function randomFromArray(arr){
+    let index = Math.floor(Math.random()*arr.length);
+    return arr[index];
+ }
+ //===============================================================================================================================================================================================
+//test
+//console.log(randomFromArray);
+//console.log(randomFromArray(arr));
 //TODO: Export the randomFromArray function.
+//===============================================================================================================================================================================================
+
+module.exports = randomFromArray;
