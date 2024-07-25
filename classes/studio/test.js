@@ -17,6 +17,13 @@ class Rover {
   }
   receiveMessage(message) {
     let obj = message;
+    roverStatus = {
+      position: this.position,
+      mode: this.mode,
+      generatorWatts: this.generatorWatts,
+    };
+    results.push(roverStatus);
+    results.push(commands);
     return obj;
   }
 }
@@ -38,8 +45,15 @@ let commands = [
 let message = new Message("Test message with two commands", commands);
 let rover = new Rover(98382); // Passes 98382 as the rover's position.
 let results = [];
+roverStatus = {};
+message.results = results;
 console.log(rover.receiveMessage());
 let response = rover.receiveMessage(message);
+console.log(commands[1]);
 console.log(response);
-
-console.log(message);
+console.log(results[0]);
+console.log(results[1][0]);
+console.log(results[1][1]);
+console.log(roverStatus);
+console.log(message.results);
+console.log(rover.receiveMessage(message).results);
