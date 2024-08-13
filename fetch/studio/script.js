@@ -1,7 +1,6 @@
 //TODO: Add Your Code Below
 window.addEventListener("load", function () {
-  let url =
-    "<https://handlers.education.launchcode.org/static/astronauts.json>";
+  let url = "https://handlers.education.launchcode.org/static/astronauts.json";
   const astronauts = fetch(url).then(function (response) {
     return response.json();
   });
